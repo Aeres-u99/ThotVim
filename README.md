@@ -35,6 +35,10 @@ It’s **basic**, it’s **fast**, and it’s **probably all you’ll ever need*
 2. It's not a distro, not an operating system. Plain, simple and sane Code Editor.
 3. It works with less efforts and more efficiency.
 
+## Requirements
+1. git, ripgrep(for telescope), neovim 0.10+ Ideally.
+2. Shell
+
 ## Installation
 
 1. Simply clone the repo in `~/.config/nvim` and Start Neovim the minimum required version is 0.8+,
