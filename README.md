@@ -72,33 +72,33 @@ The setup needs to be fast.
 
 ##### Startup Page
 
-![](assets/2025-04-02-23-47-49-image.png)
+![Startup](assets/2025-04-02-23-47-49-image.png)
 
 ##### Code Editing
 
-![](assets/2025-04-02-23-54-52-image.png)
+![CodeEditing](assets/2025-04-02-23-54-52-image.png)
 
 ##### Code Navigation
 
-![](assets/2025-04-02-23-55-32-image.png)
+![CodeNavigation](assets/2025-04-02-23-55-32-image.png)
 
 ##### Themes Demonstration
 
 ###### Gruvbox
 
-![](assets/2025-04-02-23-56-17-image.png)
+![Gruvbox](assets/2025-04-02-23-56-17-image.png)
 
 ###### Catpuccin
 
-![](assets/2025-04-02-23-57-06-image.png)
+![Catpuccin](assets/2025-04-02-23-57-06-image.png)
 
 ###### TokyoNight
 
-![](assets/2025-04-02-23-57-55-image.png)
+![TokyoNight](assets/2025-04-02-23-57-55-image.png)
 
 My Personal Favourite is ayu_night dark with transparency + blur.
 
-![](assets/2025-04-02-23-59-07-image.png)
+![AyuDark](assets/2025-04-02-23-59-07-image.png)
 
 
 
