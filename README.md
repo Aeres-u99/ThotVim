@@ -36,17 +36,29 @@ It’s **basic**, it’s **fast**, and it’s **probably all you’ll ever need*
 3. It works with less efforts and more efficiency.
 
 ## Requirements
-1. git, ripgrep(for telescope), neovim 0.10+ Ideally.
-2. Shell
+
+External Requirements:
+
+- Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
+- [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
+- Clipboard tool (xclip/xsel/win32yank or other depending on the platform)
+- A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
+  - if you have it set `vim.g.have_nerd_font` in `init.lua` to true
+- Emoji fonts (Ubuntu only, and only if you want emoji!) `sudo apt install fonts-noto-color-emoji`
+- Language Setup:
+  - If you want to write Typescript, you need `npm`
+  - If you want to write Golang, you will need `go`
+  - etc.
 
 ## Installation
 
 1. Simply clone the repo in `~/.config/nvim` and Start Neovim the minimum required version is 0.8+,
    However, Best Experience is available on 0.10+ (As its tested by me.)
+
 2. If you simply want to try it out:
    
    ```bash
-       git clone <url> ~/.config/testsetup
+       git clone https://github.com/Aeres-u99/ThotVim.git ~/.config/testsetup
        # This should start neovim and fetch all of the required plugins
        NVIM_APPNAME=testsetup nvim
        # Cleanup
@@ -69,8 +81,18 @@ It’s **basic**, it’s **fast**, and it’s **probably all you’ll ever need*
 
 ## Pull Requests and Support
 
-Please feel free to raise PR, however we do not want to exceed the speed anymore than 100ms.
-The setup needs to be fast.
+Please feel free to raise PR
+
+* The setup needs to be fast.
+
+* New comers are welcome 
+  
+  * ToDo: Create a list of beginner friendly PR
+
+* Feel free to fork and hack upon it!
+
+> [!NOTE]
+> Please ensure that the speed is under 100ms. We do not want this to be another bloated all in one neovim configuration
 
 ## Screenshots
 
@@ -104,8 +126,6 @@ My Personal Favourite is ayu_night dark with transparency + blur.
 
 ![AyuDark](assets/2025-04-02-23-59-07-image.png)
 
-
-
 ## Credits
 
 * https://github.com/neilsabde/nfs
@@ -114,7 +134,7 @@ My Personal Favourite is ayu_night dark with transparency + blur.
 
 ## ToDo
 
-1.  Zen Mode
+1. Zen Mode
 
 2. Highlight only the segment I am editing and blur out the rest of code base
 
@@ -122,4 +142,4 @@ My Personal Favourite is ayu_night dark with transparency + blur.
 
 4. Better REPL Support
 
-5.  **Find a Magical Potion** – Ideally one that **instantly fixes all my bugs** and **writes perfect code** for me. Or at least something that makes debugging less soul-crushing. 🍷✨
+5. **Find a Magical Potion** – Ideally one that **instantly fixes all my bugs** and **writes perfect code** for me. Or at least something that makes debugging less soul-crushing. 🍷✨
